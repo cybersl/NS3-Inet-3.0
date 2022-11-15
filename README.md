@@ -9,11 +9,13 @@ Network Topology Generator for NS3, Inet3.0.
 ## Install
 
 ```bash
-cd NS3-Inet-3.0
+cd NS3-Inet-3.0/inet-3.0
 
 # build
 ./make
 ```
+
+<img src="./image/make.png" alt="make image">
 
 ## Usage
 
