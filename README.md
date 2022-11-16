@@ -9,10 +9,11 @@ Network Topology Generator for NS3, Inet3.0.
 ## Install
 
 ```bash
+# bash shell
 cd NS3-Inet-3.0/inet-3.0
 
-# build
-./make
+# build with Makefile
+make
 ```
 
 <img src="./image/make.png" alt="make image">
@@ -33,6 +34,7 @@ inet [-n topology_size] [-d fraction of degree_one_nodes] [-p plane_dimension] [
 | -v     | Check the Inet version, the latest is 3.0                                                                                                                         |
 
 ```bash
+# bash shell
 # View version number
 ./inet -v
 
@@ -40,6 +42,7 @@ Output:Inet 3.0
 ```
 
 ```bash
+# bash shell
 # Generate 5000 nodes and output to data.txt file
 ./inet -n 5000 > data.txt
 
